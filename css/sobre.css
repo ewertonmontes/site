@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* === Section Sobre mim === */
+.sobre {
+  height: 628px;
+  width: 100vw;
+  background-color: #ffffff;
+}
+
+.sobre .container {
+  width: 90%;
+  max-width: 1000px;
+}

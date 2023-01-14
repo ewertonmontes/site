@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* === Section Principal === */
+.principal {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.principal .wallpaper {
+  position: absolute;
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.2;
+}
+
+.principal .container {
+  width: 90%;
+  max-width: 1000px;
+}
+
+.principal .container .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal .container .indicacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.principal .container .indicacao img {
+  width: 30px;
+  position: absolute;
+  top: 80%;
+  animation: is-bouncing 1s ease alternate infinite;
+}
+
+@keyframes is-bouncing {
+  to {
+    transform: translateY(15px);
+  }
+}
+
+.principal .container .logo .logo-dev {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  z-index: 1;
+}
