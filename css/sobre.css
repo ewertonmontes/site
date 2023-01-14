@@ -2,7 +2,7 @@
 
 /* === Section Sobre mim === */
 .sobre {
-  height: 628px;
+  height: 550px;
   width: 100vw;
   background-color: #ffffff;
 }
@@ -13,8 +13,19 @@
   margin: auto;
 }
 
-h1 {
+.sobre .container h1 {
   display: flex;
   justify-content: center;
   padding-top: 20px;
+}
+
+.sobre .container p {
+  font-family: 'Syne', sans-serif;
+  font-style: normal;
+  font-size: 2rem;
+  color: #101010;
+  padding-top: 15px;
+  text-align: justify;
+  text-indent: 50px;
+  line-height: 30px;
 }
