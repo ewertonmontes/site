@@ -34,8 +34,8 @@
   display: flex;
   margin: auto;
   cursor: pointer;
-  border: 8px solid white;
-  box-shadow: 1px 1px 4px black;
+  border: 8px solid #193454;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0,.2);
 }
 
 .projetos .relacao-projetos .pluscursos h3 {
