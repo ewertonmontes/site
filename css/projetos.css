@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* === Section projetos === */
+.projetos {
+  height: 550px;
+  width: 100vw;
+  background-color: #ffffff;
+}
+
+.projetos .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.projetos .container h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.projetos .relacao-projetos {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projetos .relacao-projetos .pluscursos {
+  margin-top: 20px;
+}
+
+.projetos .relacao-projetos .pluscursos img {
+  width: 320px;
+  display: flex;
+  margin: auto;
+  cursor: pointer;
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px black;
+}
+
+.projetos .relacao-projetos .pluscursos h3 {
+  display: flex;
+  margin: auto;
+}
+
+.projetos .relacao-projetos .academia010 {
+  margin-top: 20px;
+}
+
+.projetos .relacao-projetos .academia010 img {
+  width: 320px;
+  display: flex;
+  margin: auto;
+}
+
+.projetos .relacao-projetos .github {
+  margin-top: 20px;
+}
+
+.projetos .relacao-projetos .github img {
+  width: 320px;
+  display: flex;
+  margin: auto;
+}
+
