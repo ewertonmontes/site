@@ -26,7 +26,7 @@
 }
 
 .projetos .relacao-projetos .pluscursos {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .projetos .relacao-projetos .pluscursos img {
@@ -34,32 +34,78 @@
   display: flex;
   margin: auto;
   cursor: pointer;
-  border: 8px solid #193454;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0,.2);
+  border: 8px solid #ffffff;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0,.5);
 }
 
-.projetos .relacao-projetos .pluscursos h3 {
+.projetos .relacao-projetos .pluscursos .legenda {
+  margin-top: 10px;
   display: flex;
-  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
-.projetos .relacao-projetos .academia010 {
-  margin-top: 20px;
+.projetos .relacao-projetos .pluscursos .legenda h3 {
+  font-family: 'Sofia Sans', sans-serif;
+  font-style: normal;
+  font-size: 2rem;
+  color: #101010;
+  cursor: pointer;
 }
 
-.projetos .relacao-projetos .academia010 img {
+.projetos .relacao-projetos .academia {
+  margin-top: 30px;
+}
+
+.projetos .relacao-projetos .academia img {
   width: 320px;
   display: flex;
   margin: auto;
+  cursor: pointer;
+  border: 8px solid #ffffff;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0,.5);
 }
 
-.projetos .relacao-projetos .github {
-  margin-top: 20px;
+.projetos .relacao-projetos .academia .legenda {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.projetos .relacao-projetos .github img {
+.projetos .relacao-projetos .academia .legenda h3 {
+  font-family: 'Sofia Sans', sans-serif;
+  font-style: normal;
+  font-size: 2rem;
+  color: #101010;
+  cursor: pointer;
+}
+
+.projetos .relacao-projetos .sitepessoal {
+  margin-top: 30px;
+}
+
+.projetos .relacao-projetos .sitepessoal img {
   width: 320px;
   display: flex;
   margin: auto;
+  cursor: pointer;
+  border: 8px solid #ffffff;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0,.5);
+}
+
+.projetos .relacao-projetos .sitepessoal .legenda {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projetos .relacao-projetos .sitepessoal .legenda h3 {
+  font-family: 'Sofia Sans', sans-serif;
+  font-style: normal;
+  font-size: 2rem;
+  color: #101010;
+  cursor: pointer;
 }
 
