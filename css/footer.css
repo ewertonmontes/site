@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+/* === Section Footer1 === */
+/*.footer1 {
+    height: 425px;
+    background-color: #101010;
+}
+
+.footer1 .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer1 .container .topo-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1 .container .topo-footer .logo2 {
+    width: 150px;
+    padding-top: 20px;
+    margin-left: 42.2%;
+}
+
+.footer1 .container .topo-footer .insta-footer {
+    width: 35px;
+    padding-top: 36px;
+}
+
+.footer1 .container .linha1 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    height: 3px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.footer1 .container .linha2 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    height: 3px;
+    background: #FFFFFF;
+    margin-top: 20px;
+}
+
+.footer1 .container .container-conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1 .container .container-conteudo .navegacao {
+    width: 250px;
+    margin-right: 25px;
+}
+
+.footer1 .container .container-conteudo .navegacao .menu2 h1 {
+    display: none;
+}
+
+.footer1 .container .container-conteudo .navegacao .menu2 h2 {
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 18px;
+    color: #F7CF47;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.footer1 .container .container-conteudo .navegacao .menu2 ul {
+    list-style: none;
+}
+
+.footer1 .container .container-conteudo .navegacao .menu2 li {
+    padding: 0px 20px 8px 0px;
+    gap: 14px;
+}
+
+.footer1 .container .container-conteudo .navegacao .menu2 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 18px;
+}
+
+.footer1 .container .container-conteudo .navegacao .menu2 a:hover {
+    color: #F7CF47;
+}
+
+.footer1 .container .container-conteudo .endereco {
+    color: #ffffff;
+    min-width: 330px;
+    margin-right: 20px;
+}
+
+.footer1 .container .container-conteudo .endereco h1 {
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    color: #F7CF47;
+    font-size: 1.9rem;
+    line-height: 18px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.footer1 .container .container-conteudo .endereco p {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 21px;
+}
+
+.footer1 .container .container-conteudo .endereco a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer1 .container .container-conteudo .endereco .numero:hover {
+    color: #25d366;
+    cursor: pointer;
+}
+
+.footer1 .container .container-conteudo .mapa h1 {
+    color: #F7CF47;
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 18px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.footer1 .container .container-conteudo .mapa iframe {
+    width: 100%;
+}*/
+
+
+/* === Section Footer2 === */
+.footer2 {
+    height: 101px;
+    background-color: #193454;
+}
+
+.footer2 .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer2 .container .infos {
+    flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.footer2 .container p {
+    font-family: 'Sofia Sans', sans-serif;
+  font-style: normal;
+    font-size: 1.4rem;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 21px;
+}
+
+.footer2 .container .infos .desenvolvedor {
+    display: flex;
+    justify-content: center;
+}
+
+.footer2 .container .infos .desenvolvedor img {
+    padding-top: 18px;
+    width: 150px;
+}

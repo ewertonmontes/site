@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* === Section Slogan === */
+.slogan {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan img {
+  position: absolute;
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.2;
+}
+
+.slogan .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.slogan h1 {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  color: white;
+  z-index: 1;
+  font-size: 3.8rem;
+}
