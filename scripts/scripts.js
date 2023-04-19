@@ -523,3 +523,10 @@ class MobileNavbar {
   }));
  
   var rellax = new Rellax('.rellax');
+
+
+  /* === Alterar ícone do WhatsApp === */
+function mudalogo1(logo1) {
+  document.getElementById('whatsapp1').src = logo1;
+}
+/* === Fim === */
