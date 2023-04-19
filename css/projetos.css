@@ -110,28 +110,6 @@
   cursor: pointer;
 }
 
-/*.projetos .container .orcamento {
-  margin: auto;
-  margin-top: -30px;
-}
-
-.projetos .container .orcamento h1 {
-  text-align: center;
-  font-family: 'Sofia Sans', sans-serif;
-  font-size: 7rem;
-  line-height: 75px;
-  margin-top: 52px;
-}
-
-.projetos .container .orcamento h2 {
-  text-align: center;
-}
-
-.projetos .container .orcamento .soliciteorcamento {
-  margin: auto;
-  margin-top: 20px;
-}*/
-
 .projetos .container .orcamento .soliciteorcamento {
   position: relative;
   display: flex;
@@ -147,8 +125,8 @@
   background-color: #193454;
   border-radius: 10px;
   padding: 15px;
-  width: 300px;
-  min-height: 55px;
+  width: 275px;
+  max-height: 52px;
   margin: auto;
   cursor: pointer;
   overflow: hidden;
