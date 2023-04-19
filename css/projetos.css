@@ -163,5 +163,5 @@
 .projetos .container .orcamento .soliciteorcamento img {
   width: 25px;
   z-index: 0;
-  padding-left: 2px;
+  margin-left: 2px;
 }
