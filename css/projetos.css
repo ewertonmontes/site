@@ -126,7 +126,7 @@
   border-radius: 10px;
   padding: 15px;
   width: 270px;
-  max-height: 54px;
+  max-height: 55px;
   margin: auto;
   cursor: pointer;
   overflow: hidden;
@@ -163,5 +163,4 @@
 .projetos .container .orcamento .soliciteorcamento img {
   width: 25px;
   z-index: 0;
-  margin-left: 2px;
 }
