@@ -114,7 +114,6 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 10px;
   font-family: 'Orbitron', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -124,11 +123,15 @@
   text-decoration: none;
   background-color: #193454;
   border-radius: 10px;
-  width: 270px;
+  width: 280px;
   height: 60px;
   margin: auto;
   cursor: pointer;
   margin-top: 35px;
+}
+
+.projetos .container .orcamento .soliciteorcamento p {
+  width: 210px;
 }
 
 .projetos .container .orcamento .soliciteorcamento:hover {
