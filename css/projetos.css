@@ -123,7 +123,7 @@
   text-decoration: none;
   background-color: #193454;
   border-radius: 10px;
-  width: 280px;
+  width: 290px;
   height: 60px;
   margin: auto;
   cursor: pointer;
@@ -131,8 +131,7 @@
 }
 
 .projetos .container .orcamento .soliciteorcamento p {
-  width: 215px;
-  background-color: aqua;
+  width: 225px;
 }
 
 .projetos .container .orcamento .soliciteorcamento:hover {
