@@ -131,7 +131,8 @@
 }
 
 .projetos .container .orcamento .soliciteorcamento p {
-  width: 210px;
+  width: 215px;
+  background-color: aqua;
 }
 
 .projetos .container .orcamento .soliciteorcamento:hover {
