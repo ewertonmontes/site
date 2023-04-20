@@ -1,18 +1,11 @@
 const menuLinks = document.querySelectorAll('.menu1 a[href^="#"]');
 
-const menuLinks2 = document.querySelectorAll('.menu2 a[href^="#"]');
+const menuLinks2 = document.querySelectorAll('.indicacao a[href^="#"]');
 
 function getDistanceFromTheTop(element) {
   const id = element.getAttribute("href");
   return document.querySelector(id).offsetTop;
 }
-
-// function nativeScroll(distanceFromTheTop) {
-//   window.scroll({
-//     top: distanceFromTheTop,
-//     behavior: "smooth",
-//   });
-// }
 
 function scrollToSection(event) {
   event.preventDefault();
