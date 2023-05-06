@@ -1,35 +1,36 @@
 @charset "UTF-8";
 
-/* === Section projetos === */
-.projetos {
+/* === Section Trabalhos === */
+.trabalhos {
   height: 1060px;
   width: 100vw;
   background-color: #ffffff;
 }
 
-.projetos .container {
+.trabalhos .container {
   width: 90%;
   max-width: 1000px;
   margin: auto;
 }
 
-.projetos .container h1 {
+.trabalhos .container h1 {
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  max-width: 1000px;
 }
 
-.projetos .relacao-projetos {
+.trabalhos .relacao-trabalhos {
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.projetos .relacao-projetos .pluscursos {
+.trabalhos .relacao-trabalhos .academia {
   margin-top: 30px;
 }
 
-.projetos .relacao-projetos .pluscursos img {
+.trabalhos .relacao-trabalhos .academia img {
   width: 320px;
   display: flex;
   margin: auto;
@@ -38,14 +39,14 @@
   box-shadow: 1px 1px 4px rgba(0, 0, 0,.5);
 }
 
-.projetos .relacao-projetos .pluscursos .legenda {
+.trabalhos .relacao-trabalhos .academia .legenda {
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.projetos .relacao-projetos .pluscursos .legenda h3 {
+.trabalhos .relacao-trabalhos .academia .legenda h3 {
   font-family: 'Sofia Sans', sans-serif;
   font-style: normal;
   font-size: 2rem;
@@ -53,11 +54,11 @@
   cursor: pointer;
 }
 
-.projetos .relacao-projetos .academia {
+.trabalhos .relacao-trabalhos .sitepessoal {
   margin-top: 30px;
 }
 
-.projetos .relacao-projetos .academia img {
+.trabalhos .relacao-trabalhos .sitepessoal img {
   width: 320px;
   display: flex;
   margin: auto;
@@ -66,14 +67,14 @@
   box-shadow: 1px 1px 4px rgba(0, 0, 0,.5);
 }
 
-.projetos .relacao-projetos .academia .legenda {
+.trabalhos .relacao-trabalhos .sitepessoal .legenda {
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.projetos .relacao-projetos .academia .legenda h3 {
+.trabalhos .relacao-trabalhos .sitepessoal .legenda h3 {
   font-family: 'Sofia Sans', sans-serif;
   font-style: normal;
   font-size: 2rem;
@@ -81,11 +82,11 @@
   cursor: pointer;
 }
 
-.projetos .relacao-projetos .sitepessoal {
+.trabalhos .relacao-trabalhos .pluscursos {
   margin-top: 30px;
 }
 
-.projetos .relacao-projetos .sitepessoal img {
+.trabalhos .relacao-trabalhos .pluscursos img {
   width: 320px;
   display: flex;
   margin: auto;
@@ -94,14 +95,14 @@
   box-shadow: 1px 1px 4px rgba(0, 0, 0,.5);
 }
 
-.projetos .relacao-projetos .sitepessoal .legenda {
+.trabalhos .relacao-trabalhos .pluscursos .legenda {
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.projetos .relacao-projetos .sitepessoal .legenda h3 {
+.trabalhos .relacao-trabalhos .pluscursos .legenda h3 {
   font-family: 'Sofia Sans', sans-serif;
   font-style: normal;
   font-size: 2rem;
@@ -109,7 +110,7 @@
   cursor: pointer;
 }
 
-.projetos .container .orcamento .soliciteorcamento {
+.trabalhos .container .orcamento .soliciteorcamento {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,15 +131,15 @@
   margin-top: 35px;
 }
 
-.projetos .container .orcamento .soliciteorcamento p {
+.trabalhos .container .orcamento .soliciteorcamento p {
   width: 225px;
 }
 
-.projetos .container .orcamento .soliciteorcamento:hover {
+.trabalhos .container .orcamento .soliciteorcamento:hover {
   filter: drop-shadow(0px 1px 3px rgba(0,0,0,.6));
   margin-top: 34px;
 }
 
-.projetos .container .orcamento .soliciteorcamento img {
+.trabalhos .container .orcamento .soliciteorcamento img {
   width: 80px;
 }

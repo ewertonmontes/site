@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    header {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #193454;
+        height: 70px;
+    }
+
+    header .container {
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+    }
+  
+    header .container .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  
+    header .container .navbar .bem-vindo {
+        display: flex;
+        margin-top: 17px;
+    }
+  
+    header .container .navbar .bem-vindo .circulo {
+        display: flex;
+        align-items: center;
+    }
+  
+    header .container .navbar .bem-vindo .circulo img {
+        width: 20px;
+        cursor: pointer;
+    }
+
+    header .container .navbar .bem-vindo .texto {
+        margin-left: 7px;
+    }
+
+    header .container .navbar .bem-vindo .texto p {
+        font-family: 'Orbitron', sans-serif;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: #ffffff;
+    }
+
+    header .container .navbar .menu1 ul {
+        display: flex;
+        list-style: none;
+    }
+
+    header .container .navbar .menu1 ul li a {
+        position: relative;
+        font-family: 'Syne', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.8rem;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    header .container .navbar .menu1 ul li {
+        margin-top: 15px;
+    }
+  
+    header .container .navbar .menu1 ul li a {
+        font-size: 1.8rem;
+        line-height: 38px;
+        color: #ffffff;
+        margin-left: 15px;
+    }
+  
+  
+    /*  Estilização menu (Listras hover) */
+    header .container .navbar .menu1 ul li a:after {
+        content: "";
+        position: absolute;
+        background-color: #508aa5;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s;
+    }
+  
+    header .container .navbar .menu1 ul li a:hover {
+        color: #ffffff;
+      }
+  
+    header .container .navbar .menu1 ul li a:hover:after {
+        width: 100%;
+    }
+    /*  Fim - estilização menu */
+
+
+    .sobre {
+        height: 440px;
+    }
+
+    .sobre .container h1 {
+        font-size: 3.5rem;
+    }
+
+    .sobre .container p {
+        font-size: 2.5rem;
+    }
+
+
+    .trabalhos .container h1 {
+        font-size: 3.5rem;
+    }
+
+    
+    .footer {
+        height: 60px;
+    }
+
+    .footer .container .infos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .sobre {
+        height: 360px;
+    }
+    
+
+    .trabalhos {
+        height: 580px;
+    }
+
+    .trabalhos .relacao-trabalhos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .trabalhos .container .orcamento {
+        margin-top: 80px;
+    }
+
+    .slogan h1 {
+        font-size: 6rem;
+    }
+
+}

@@ -1,158 +1,162 @@
 @charset "UTF-8";
 
-/* === Section Header === */
-header {
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #193454;
-  height: 70px;
-  display: flex;
-  align-items: center;
-}
+@media only screen and (max-width: 767.9px) {
 
-header .container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-}
+    /* === Section Header === */
+    header {
+      position: fixed;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #193454;
+      height: 70px;
+      display: flex;
+      align-items: center;
+    }
 
-header .container .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+    header .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+    }
 
-header .container .navbar .dados {
-  display: flex;
-}
+    header .container .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
-header .container .navbar .dados .bem-vindo {
-  display: flex;
-  align-items: center;
-}
+    header .container .navbar .bem-vindo {
+      display: flex;
+    }
 
-header .container .navbar .dados .bem-vindo img {
-  width: 20px;
-  cursor: pointer;
-}
+    header .container .navbar .bem-vindo .circulo {
+      display: flex;
+      align-items: center;
+    }
 
-header .container .navbar .dados .texto {
-  margin-left: 7px;
-}
+    header .container .navbar .bem-vindo .circulo img {
+      width: 20px;
+      cursor: pointer;
+    }
 
-header .container .navbar .dados .texto p {
-  font-family: 'Orbitron', sans-serif;
-  font-style: normal;
-  font-size: 1.6rem;
-  color: #ffffff;
-}
+    header .container .navbar .bem-vindo .texto {
+      margin-left: 7px;
+    }
 
-header .container .navbar .menu1 ul {
-  display: flex;
-  list-style: none;
-}
+    header .container .navbar .bem-vindo .texto p {
+      font-family: 'Orbitron', sans-serif;
+      font-style: normal;
+      font-size: 1.6rem;
+      color: #ffffff;
+    }
 
-header .container .navbar .menu1 ul li a {
-  position: relative;
-  font-family: 'Syne', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.8rem;
-  color: #ffffff;
-  text-decoration: none;
-}
+    header .container .navbar .menu1 ul {
+      display: flex;
+      list-style: none;
+    }
 
-header .container .navbar .menu-alternativo {
-  width: 40px;
-  height: 30px;
-  cursor: pointer;
-}
+    header .container .navbar .menu1 ul li a {
+      position: relative;
+      font-family: 'Syne', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.8rem;
+      color: #ffffff;
+      text-decoration: none;
+    }
 
-header .container .navbar .menu1 {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 60vw;
-  height: 100vh;
-  background-color: #193454;
-  z-index: -1;
-  transform: translateX(-100%);
-  transition: transform 0.3s ease-in;
-}
+    header .container .navbar .menu-alternativo {
+      width: 40px;
+      height: 30px;
+      cursor: pointer;
+    }
 
-header .container .navbar .menu1.active {
-  transform: translateX(0);
-}
+    header .container .navbar .menu1 {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      width: 60vw;
+      height: 100vh;
+      background-color: #193454;
+      z-index: -1;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease-in;
+    }
 
-header .container .navbar .menu1 ul {
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 90px;
-}
+    header .container .navbar .menu1.active {
+      transform: translateX(0);
+    }
 
-header .container .navbar .menu1 ul li {
-  padding-top: 8px;
-}
+    header .container .navbar .menu1 ul {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 90px;
+    }
 
-header .container .navbar .menu1 ul li a {
-  font-size: 1.8rem;
-  line-height: 38px;
-  color: #ffffff;
-}
+    header .container .navbar .menu1 ul li {
+      padding-top: 8px;
+    }
 
-
-/*  Estilização menu (Listras hover) */
-header .container .navbar .menu1 ul li a:after {
-  content: "";
-  position: absolute;
-  background-color: #508aa5;
-  height: 3px;
-  width: 0;
-  left: 0;
-  bottom: -10px;
-  transition: 0.3s;
-}
-
-header .container .navbar .menu1 ul li a:hover {
-  color: #ffffff;
-}
-
-header .container .navbar .menu1 ul li a:hover:after {
-  width: 100%;
-}
-/*  Fim - estilização menu */
+    header .container .navbar .menu1 ul li a {
+      font-size: 1.8rem;
+      line-height: 38px;
+      color: #ffffff;
+    }
 
 
-header .container .navbar .menu-alternativo {
-  position: absolute;
-  right: 22px;
-  top: 16px;
-}
+    /*  Estilização menu (Listras hover) */
+    header .container .navbar .menu1 ul li a:after {
+      content: "";
+      position: absolute;
+      background-color: #508aa5;
+      height: 3px;
+      width: 0;
+      left: 0;
+      bottom: -10px;
+      transition: 0.3s;
+    }
 
-.menu-alternativo.active .linha1 {
-  background-color: #ffffff;
-  transform: rotate(45deg) translate(7px, 7px);
-}
+    header .container .navbar .menu1 ul li a:hover {
+      color: #ffffff;
+    }
 
-.menu-alternativo.active .linha2 {
-  opacity: 0;
-}
+    header .container .navbar .menu1 ul li a:hover:after {
+      width: 100%;
+    }
+    /*  Fim - estilização menu */
 
-.menu-alternativo.active .linha3 {
-  background-color: #ffffff;
-  transform: rotate(-45deg) translate(8px, -10px);
-}
 
-.linha1,
-.linha2,
-.linha3 {
-  background-color: #ffffff;
-  height: 5px;
-  width: 100%;
-  margin: 6px auto;
-  transition-duration: 0.3s;
+    header .container .navbar .menu-alternativo {
+      position: absolute;
+      right: 22px;
+      top: 16px;
+    }
+
+    .menu-alternativo.active .linha1 {
+      background-color: #ffffff;
+      transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-alternativo.active .linha2 {
+      opacity: 0;
+    }
+
+    .menu-alternativo.active .linha3 {
+      background-color: #ffffff;
+      transform: rotate(-45deg) translate(8px, -10px);
+    }
+
+    .linha1,
+    .linha2,
+    .linha3 {
+      background-color: #ffffff;
+      height: 5px;
+      width: 100%;
+      margin: 6px auto;
+      transition-duration: 0.3s;
+    }
+
 }
